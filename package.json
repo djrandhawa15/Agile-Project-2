@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.14",
+    "@tailwindcss/vite": "^4.0.14",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "tailwindcss": "^4.0.14"
+  },
+  "name": "agile-tech-stack",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
