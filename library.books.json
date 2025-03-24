@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "67e1a43c9f50156828925e80"
+  },
+  "title": "Sunny Day",
+  "author": "Mika Ohashi",
+  "price": 29.99,
+  "inventory": false
+},
+{
+  "_id": {
+    "$oid": "67e1a62a2c84cb5d5d91fa62"
+  },
+  "title": "Snowy Day",
+  "author": "Mike Sam",
+  "price": 30,
+  "inventory": false
+}]
