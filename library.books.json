@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "67ead80abec1e0ddba3c2585"
+  },
+  "title": "Sunny Day",
+  "author": "Mika Ohashi",
+  "price": 29,
+  "inventory": true
+},
+{
+  "_id": {
+    "$oid": "67ead8ebbec1e0ddba3c2586"
+  },
+  "title": "Rainy Day",
+  "author": "Sam Bates",
+  "price": 19.99,
+  "inventory": true
+},
+{
+  "_id": {
+    "$oid": "67ead8ebbec1e0ddba3c2587"
+  },
+  "title": "Cloudy Day",
+  "author": "Pamela Anderson",
+  "price": 34.5,
+  "inventory": false
+},
+{
+  "_id": {
+    "$oid": "67eadb2b3dc2237546eb213d"
+  },
+  "title": "Snowy Day",
+  "author": "Mike Sam",
+  "price": 39.99,
+  "inventory": false
+}]

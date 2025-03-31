@@ -1,0 +1,35 @@
+[{
+  "_id": {
+    "$oid": "67eadbc03dc2237546eb2141"
+  },
+  "name": "Thomas Kidman",
+  "age": 29
+},
+{
+  "_id": {
+    "$oid": "67eadbc03dc2237546eb2142"
+  },
+  "name": "Connie Ellis",
+  "age": 49
+},
+{
+  "_id": {
+    "$oid": "67eadd054734556b863092b1"
+  },
+  "name": "Alice Wood",
+  "age": 54,
+  "birthday": {
+    "$date": "1970-01-01T00:00:00.000Z"
+  },
+  "registrationDate": {
+    "$date": "2025-03-31T18:20:53.279Z"
+  },
+  "genre": [
+    "comedy",
+    "sci-fi"
+  ],
+  "address": {
+    "street": "123 ABC street",
+    "city": "Vancouver"
+  }
+}]
