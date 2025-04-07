@@ -12,12 +12,24 @@ app.set ('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
 
 
-io.on('connection', function (socket){
-    console.log('connected');
-    // socket.on('disconnect', () => {
-    //     console.log('user disconnected');
-    // });
-})
+io.on("connection", (socket) => {
+    console.log("connected");
+
+    socket.on("location", (data) => {
+        console.log("Location received:", data);
+        io.emit("receive-location", {
+            id: socket.id,
+            latitude: data.latitude,
+            longitude: data.longitude
+        });
+    });
+
+    socket.on("disconnect", () => {
+        console.log("User disconnected:", socket.id);
+        io.emit("user-disconnected", socket.id); // 🔁 CUSTOM event name
+    });
+});
+
 
 app.get ('/', (req, res) => {
     res.render("index");
